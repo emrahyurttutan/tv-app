@@ -1,0 +1,44 @@
+[
+  {
+    "text": "Anasayfa",
+    "icon": "pi pi-fw pi-home",
+    "url": "/home",
+    "serviceName": "HomePage"
+  },
+  {
+    "text": "Kategoriler",
+    "icon": "pi pi-fw pi-list",
+    "url": "",
+    "children": [
+      {
+        "text": "Tümü",
+        "url": "/category",
+        "methodName": "Category"
+      },
+      {
+        "text": "Yeni Ekle",
+        "url": "/category/new",
+        "methodName": "SaveOrUpdate"
+      }
+    ],
+    "serviceName": "Category"
+  },
+  {
+    "text": "Kanallar",
+    "icon": "pi pi-fw pi-globe",
+    "url": "",
+    "children": [
+      {
+        "text": "Tümü",
+        "url": "/channels",
+        "methodName": "Channels"
+      },
+      {
+        "text": "Yeni Ekle",
+        "url": "/channels/new",
+        "methodName": "SaveOrUpdate"
+      }
+    ],
+    "serviceName": "Channels"
+  }
+]
